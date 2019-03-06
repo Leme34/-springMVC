@@ -143,7 +143,7 @@ public class MyDispatcherServlet extends HttpServlet {
 
     }
 
-    //初始化适配器（url与映射关系handlerMapping匹配的过程）
+    //初始化适配器（保存handler的参数信息）
     public void initHandlerAdapters(MyApplicationContext context) {
         if (handlerMapping.isEmpty()) {
             return;

@@ -14,7 +14,7 @@ public class HandlerAdapter {
     private Map<String, Integer> paramMapping;
 
     /**
-     * Use the given handler to handle this request.
+     * Use the given handler to handle this request.即url与映射关系handlerMapping匹配的过程
      * 1、根据下标获取到参数的类型
      * 2、把第index个参数转为对应类型
      * 3、根据下标index放入参数数组对应的位置
